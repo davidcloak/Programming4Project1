@@ -5,7 +5,7 @@
 import java.io.*;
 import java.util.ArrayList;
 public class TextRW {
-    private File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\text.txt");
+    private File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\Player.txt");
     
     TextRW(){
     }
@@ -16,7 +16,7 @@ public class TextRW {
             printO[0][x] = new ArrayList();
         }
         
-        File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\text.txt");
+        File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\Player.txt");
         
         BufferedReader in = new BufferedReader(new FileReader(file));
         String test = "";
@@ -40,7 +40,7 @@ public class TextRW {
         printO = Get();
         
         String test = "";
-        File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\text.txt");
+        File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\Player.txt");
         BufferedWriter out = new BufferedWriter(new FileWriter(file)); 
         
         //Needs to add the add part also use get
@@ -66,7 +66,7 @@ public class TextRW {
         ArrayList[][] printO = new ArrayList[1][4];
         printO = a;//sets it
         
-        File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\text.txt");
+        File file = new File ("Z:\\Programming 4\\text docs\\Stat Reporter\\Player.txt");
         BufferedWriter out = new BufferedWriter(new FileWriter(file)); 
         
         for(int x = 0; x < printO[0][0].size(); x++){//adds it all back to
